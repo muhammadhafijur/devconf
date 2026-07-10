@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+    padding: 24px 0;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.action-btn{
+    background-color: #615fff;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
