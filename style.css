@@ -1,7 +1,26 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+    font-family: "Inter", sans-serif;
+}
+
+.banner h1{
+    padding-top: 136px;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner p{
+    margin-top: 16px;
+    font-size: 22px;
+    color: white;
+    width: 100%;
+    max-width: 829px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
 nav{
@@ -30,4 +49,20 @@ a {
     color: white;
     padding: 8px 24px;
     border-radius: 8px;
+}
+
+
+.banner{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0)), url(./assets/banner.jpg);
+    height: 90vh;
+    text-align: center;
+    position: relative;
+}
+
+.banner button{
+    background-color: #615fff;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    position: absolute;
 }
