@@ -127,7 +127,9 @@ a {
 }
 
 /* Ticket Card */
-
+.ticket{
+  padding: 72px 0;
+}
 .ticket-content {
   text-align: center;
 }
@@ -265,6 +267,120 @@ a {
   color: white;
 }
 
+
+/* Section */
+.schedule {
+  background: #F9F7F3;
+  padding: 80px 20px 100px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+.schedule-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.schedule-header h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.schedule-header p {
+  color: #64748b;
+}
+
+/* Timeline Wrapper */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+/* Vertical Line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  /* background: #e2e8f0; */
+  border-right: 2px dashed #aba3a3;
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* Icon (Step Circle) */
+.timeline-icon {
+  position: absolute;
+  left: -39px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content Box */
+.timeline-content {
+  background: #2b2b2b;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-left: 50px;
+  transition: 0.3s ease;
+}
+
+/* Time */
+.timeline-content time {
+  font-size: 13px;
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+/* Title */
+.timeline-content h3 {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* Description */
+.timeline-content p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* Hover Effect */
+.timeline-content:hover {
+  transform: translateX(6px);
+}
+
+/* Keynote Highlight */
+.timeline-item.keynote .timeline-icon {
+  background: #22c55e;
+}
+
+.timeline-item.keynote .timeline-content time {
+  color: #22c55e;
+}
+
+
+
 footer{
   /* padding: 24px 0; */
   background-color: #0D1B2A;
@@ -302,7 +418,7 @@ footer{
 
 .footer-bottom p, .footer-bottom a{
   color: #D1D9DF;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .footer-terms{
