@@ -4,6 +4,14 @@
   font-family: "Inter", sans-serif;
 }
 
+button{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .primary {
   color: #615fff;
 }
@@ -67,6 +75,10 @@ nav {
 nav ul {
   display: flex;
   gap: 24px;
+}
+
+nav ul li{
+  list-style: none;
 }
 
 .navitems a {
@@ -199,6 +211,7 @@ nav ul {
 }
 
 .card {
+  background-color: #fff;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 32px;
